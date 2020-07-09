@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+void cough(int n);
+
+int main()
+{
+    cough(10);
+   
+    
+}
+
+
+void cough(int n)
+{
+    for (int i = 0; i < n;  i++)
+    {
+        printf("cough\n");
+    }
+    
+    
+}
