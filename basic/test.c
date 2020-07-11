@@ -1,15 +1,21 @@
 #include<stdio.h>
-int random_8();
 
 int main()
 {
-    int random_8();
 
-    
+
+
+int x, count, even;
+x = 0;
+even = 0;
+scanf("%d", &count);
+
+while(x < count)
+
+{
+    printf("%d",even);
+ even = even+2;
+x = x+1;
 }
 
-int random_8(){
-    int x= (random_5()+random_5())%9;
-    printf("%d", x);
-    return x;
 }
