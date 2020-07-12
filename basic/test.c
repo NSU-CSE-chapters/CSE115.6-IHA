@@ -2,20 +2,16 @@
 
 int main()
 {
+    int n, sum=0, current_n = 1;
 
+    printf("enter any number :");
+    scanf("%d", &n);
 
-
-int x, count, even;
-x = 0;
-even = 0;
-scanf("%d", &count);
-
-while(x < count)
-
-{
-    printf("%d",even);
- even = even+2;
-x = x+1;
-}
-
+    while (current_n<=n)
+    {
+        sum += current_n;
+        current_n++;
+    }
+    printf("%d", sum);
+    
 }
