@@ -1,0 +1,1 @@
+printf("greatest value = %d", c);

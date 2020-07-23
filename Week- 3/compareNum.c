@@ -23,10 +23,20 @@ int main()
     }
 
 
+    if (a<b && a<c)
+    {
+        printf("\nthe smallest  value is %d\n", a);
+    }
+    else if (b<a && b<c)
+    {
+        printf("\nthe smallest value is %d\n", b);
+    }
+
+    else if (c<a &&c<b)
+    {
+        printf("\n the smallest value is %d\n", c);
+    }
     
-
-
-
     
     
     
