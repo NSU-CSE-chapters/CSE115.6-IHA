@@ -13,7 +13,8 @@ int main()
     scanf("%d", &y);
 
     
-    calc = pow(2,x)*a/pow(2,y);
+    calc = a = a << (x-y);
+//a = (a<<x) >> y;
 
 
 
