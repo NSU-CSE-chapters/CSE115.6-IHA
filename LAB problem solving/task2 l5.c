@@ -13,8 +13,8 @@ int main()
     scanf("%d", &y);
 
     
-    calc = a = a << (x-y);
-//a = (a<<x) >> y;
+    calc  = a << (x-y);
+            //a = (a<<x) >> y;
 
 
 
