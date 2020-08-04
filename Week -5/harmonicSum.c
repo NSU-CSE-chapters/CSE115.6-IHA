@@ -9,9 +9,8 @@ int main()
     printf("Enter the value of series :- ");
     scanf("%d",&num);
 
-    printf("%.2lf\n",  harmonicSum(num));
+    printf("%.2lf\n", (double) harmonicSum(num));
 
-   
 
 }
 
