@@ -14,10 +14,17 @@ int main()
 
 int listNumbersAsc(int start, int end)
 {
-    if (start<= end)
+    int i = 1;
+    if (i<= end)
     {
-        return  listNumbersAsc(start+1, end);
+        printf("%d ", i);
+        i++;
+        listNumbersAsc(start, end);
     }
+   
+    
     
 
 }
+
+
