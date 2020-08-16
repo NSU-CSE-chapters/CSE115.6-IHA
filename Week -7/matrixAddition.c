@@ -38,6 +38,16 @@ int main()
         
     }
 
+    for ( i = 0; i < rowsB; i++)
+    {
+        for ( j = 0; j<colB; j++)
+        {
+            printf("B[%d][%d] : ", i,j );
+            scanf("%d", &B[i][j]);
+        }
+        
+    }
+
     printf("\n");
 
 
