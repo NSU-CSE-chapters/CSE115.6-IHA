@@ -21,14 +21,13 @@ int main()
     return 0;
 }
 
- int rem, sum = 0;
 void print_digits_reversed(int x)
 {
    int rem;
 
     if (x == 0)
     {
-        return;
+        return ;
     }
 
     else
