@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+
+	char str1[]="Hello world";
+	char str2[20];
+
+	printf("%s\n", strcpy(str2,str1));
+	printf("%s\n", str2);
+
+
+return 0;
+}
