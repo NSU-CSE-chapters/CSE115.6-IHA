@@ -8,7 +8,7 @@ int main()
     printf("enter file name: \n");
     gets(str);
 
-    fp = fopen(str, "r");
+    fp = fopen(str, "w");
 
     
 }
